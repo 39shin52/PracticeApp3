@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		DA2424B5246000BC00414578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2424B3246000BC00414578 /* LaunchScreen.storyboard */; };
 		DA2424C0246000BC00414578 /* TodoRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2424BF246000BC00414578 /* TodoRealmTests.swift */; };
 		DA2424CB246000BC00414578 /* TodoRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2424CA246000BC00414578 /* TodoRealmUITests.swift */; };
+		DA40902D24603B600026408F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40902C24603B600026408F /* AddViewController.swift */; };
+		DA40902F24603C700026408F /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40902E24603C700026408F /* Todo.swift */; };
 		EA7F9D684DE43D613CC5CBE9 /* Pods_TodoRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB691AC6017D65091668E4D6 /* Pods_TodoRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		DA2424C6246000BC00414578 /* TodoRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2424CA246000BC00414578 /* TodoRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRealmUITests.swift; sourceTree = "<group>"; };
 		DA2424CC246000BC00414578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA40902C24603B600026408F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DA40902E24603C700026408F /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		FAC28CEF6E0D991559FBF6EB /* Pods-TodoRealm-TodoRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoRealm-TodoRealmUITests.release.xcconfig"; path = "Target Support Files/Pods-TodoRealm-TodoRealmUITests/Pods-TodoRealm-TodoRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +105,6 @@
 				8153BF576F58AD460B975157 /* Pods-TodoRealmTests.debug.xcconfig */,
 				5B1605CA310A92ADF0604155 /* Pods-TodoRealmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +147,8 @@
 				DA2424AA246000BB00414578 /* SceneDelegate.swift */,
 				DA2424AC246000BB00414578 /* ViewController.swift */,
 				DA2424AE246000BB00414578 /* Main.storyboard */,
+				DA40902E24603C700026408F /* Todo.swift */,
+				DA40902C24603B600026408F /* AddViewController.swift */,
 				DA2424B1246000BC00414578 /* Assets.xcassets */,
 				DA2424B3246000BC00414578 /* LaunchScreen.storyboard */,
 				DA2424B6246000BC00414578 /* Info.plist */,
@@ -410,7 +415,9 @@
 			files = (
 				DA2424AD246000BB00414578 /* ViewController.swift in Sources */,
 				DA2424A9246000BB00414578 /* AppDelegate.swift in Sources */,
+				DA40902D24603B600026408F /* AddViewController.swift in Sources */,
 				DA2424AB246000BB00414578 /* SceneDelegate.swift in Sources */,
+				DA40902F24603C700026408F /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
